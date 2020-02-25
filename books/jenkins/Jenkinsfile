@@ -5,8 +5,8 @@ pipeline {
     }
     agent {
       node {
-        lable 'nodejs'//TODO: Add label for Node.js jenkins agent
-      }
+        lable 'nodejs'
+       }
     }
 
     environment {
